@@ -22,6 +22,60 @@ body {
   margin: auto;
 }
 
+/* Header */
+header {
+  position: fixed;
+  width: 100%;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  height: 40px;
+}
+
+.lnb {
+  width: 1300px;
+  margin: auto;
+  text-align: right;
+}
+
+.lnb a {
+  margin: 10px;
+  color: #ddd;
+}
+
+.lnb a:last-child {
+  margin-right: 0;
+}
+
+.lnb a em {
+  color: #bbb;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1300px;
+  margin: auto;
+  margin-top: 15px;
+}
+
+
+.gnb {
+  display: flex;
+}
+
+.gnb li a {
+  margin: 20px;
+  font-weight: 500;
+}
+
+.gnb li a:last-child {
+  margin-right: 0;
+}
+
 /* Intro */
 .intro {
   display: flex;
