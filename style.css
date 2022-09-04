@@ -13,4 +13,36 @@ body {
   margin: 0;
   color: #222;
   line-height: 1.5em;
+  font-weight: 300;
+}
+
+/* Common css */
+.inner {
+  width: 1300px;
+  margin: auto;
+}
+
+/* Intro */
+.intro {
+  display: flex;
+  align-items: center;
+  height: 85vh;
+  background: url(images/bedroom.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.heading {
+  color: #263238;
+  text-align: center;
+}
+
+.heading h1 {
+  font-size: 56px;
+  margin-bottom: 35px;
+}
+
+.heading p {
+  font-size: 25px;
+  line-height: 1.4em;
+  font-weight: 500;
 }
