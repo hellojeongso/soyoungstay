@@ -208,6 +208,53 @@ nav {
 }
 /* Blog */
 
-/* Festival */
+/* Special */
+.special{
+  height: 270px;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.special-heading{
+  text-align: center;
+}
+
+.special-heading h3 {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.special-heading h3 span {
+  font-weight: 500;
+}
+
+.btns{}
+
+.btns a {
+  display: inline-block;
+  width: 200px;
+  padding: 6px;
+  margin: 5px;
+  border-radius: 5px;
+  /* 두 버튼의 텍스트 길이가 일정하지 않으므로
+  좌우 패딩을 주기보다
+  display를 inline-block으로 변경하고
+  width를 주는 것이 맞다. */
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.btns a:nth-child(1) {
+  background-color: #fac53b;
+  color: #fff;
+}
+
+.btns a:nth-child(2) {
+  background-color: #ededed;
+  color: #333;
+}
 /* Footer */
