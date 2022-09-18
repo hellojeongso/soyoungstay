@@ -70,10 +70,15 @@ nav {
 .gnb li a {
   margin: 20px;
   font-weight: 500;
+  color: #695945;
 }
 
 .gnb li a:last-child {
   margin-right: 0;
+}
+
+.gnb li a:hover {
+  color: #333;
 }
 
 /* Intro */
@@ -81,12 +86,13 @@ nav {
   display: flex;
   align-items: center;
   height: 85vh;
-  background: url(images/bedroom.jpg) no-repeat center center;
+  background: url(images/main.jpg) no-repeat center center;
   background-size: cover;
 }
 
 .heading {
-  color: #263238;
+  margin-top: 30px;
+  color: #4a433b;
   text-align: center;
 }
 
@@ -96,7 +102,50 @@ nav {
 }
 
 .heading p {
-  font-size: 25px;
+  font-size: 20px;
   line-height: 1.4em;
-  font-weight: 500;
+  font-weight: 400;
+}
+
+
+/* About */
+.about-content {
+  display: flex;
+  padding: 100px 0;
+}
+
+.about-content div {
+  padding: 30px;
+}
+
+.desc {
+  flex: 3; /* 3/5 */
+  text-align: center;  
+}
+
+.desc h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.desc p {
+  font-size: 16px;
+  line-height: 1.7em;
+}
+
+.desc a {
+  color: #c25a3a;
+  font-weight: bold;
+}
+
+.desc a:hover {
+  text-decoration: underline;
+}
+
+.photo {
+  flex: 2; /* 2/5 */
+}
+.photo img {
+  width: 100%;
+  border-radius: 40% 60% 65% 35% / 40% 45% 55% 60%;
 }
