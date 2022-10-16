@@ -352,6 +352,116 @@ callaction의 경우는 height */
 }
 
 /* Blog */
+.blog {
+  padding: 100px 0;
+}
+
+.blog-content {
+}
+
+.blog-content div {
+}
+
+.blog-header {
+  
+}
+
+.post-content {
+  display: flex;
+  justify-content: space-between;
+}
+.post-content div {
+  
+}
+.recent-post-items {
+  flex: 2;
+}
+.shared-post-items {
+  width: 360px;
+}
+
+.blog-header h6,
+.recent-post-items h6,
+.shared-post-items h6 {
+  font-size: 16px;
+  color: #00a0e9;
+}
+
+.recent-post-items h6,
+.shared-post-items h6 {
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.blog-header h2 {
+  text-transform: uppercase;
+  font-size: 48px;
+  margin: 50px 0;
+  font-weight: 600;
+}
+
+.blog-header p {
+  font-size: 28px;
+  line-height: 1.6em;
+}
+
+hr.divider {
+  margin: 50px 0;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.post-item {
+  display: flex;
+}
+
+.post-item div {}
+
+.post-image {
+  width: 360px;
+  border-radius: 30px 0 40px 0;
+  overflow: hidden; 
+  /* 사진이 넘쳐서 border가 안보였다 */
+}
+
+.post-image img {
+  width: 100%;
+}
+.post-desc {
+  flex: 3;
+  padding: 0 20px;
+}
+.post-desc h3 {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.post-desc p {
+  font-size: 18px;
+  line-height: 1.6em;
+}
+
+.post-desc p span {
+  font-size: 14px;
+  color: #6d6d6d;
+  display: block;
+  margin-top: 20px;
+}
+
+.post-content hr.divider {
+  margin: 30px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.shared-post-items .post-item {
+  flex-direction: column;
+}
+
+.shared-post-items .post-desc {
+  margin-top: 20px;
+  padding: 0;
+}
 
 /* Special */
 .special{
@@ -378,6 +488,7 @@ callaction의 경우는 height */
 }
 
 .btns{}
+
 
 .btns a {
   display: inline-block;
