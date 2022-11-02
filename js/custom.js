@@ -1,4 +1,18 @@
 $(function(){
+
+  // Header Scroll change
+  // 선택자가 window
+  // window에서 스크롤을 했는데 위쪽이 50px보다 높다면~ 
+  $(window).scroll(function(){
+    if($(window).scrollTop() > 50) {
+      $('header').addClass('active')
+    }
+    else {
+      $('header').removeClass('active')
+    }
+  })
+
+
   // slick.js
   $('.myslider').slick({
     dots: true,

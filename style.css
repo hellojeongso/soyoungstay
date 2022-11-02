@@ -24,8 +24,9 @@ body {
 
 /* Header */
 header {
-  position: absolute;
+  position: fixed;
   width: 100%;
+  transition: 0.3s;
 }
 .banner {
   display: flex;
@@ -70,7 +71,7 @@ nav {
 .gnb li a {
   margin: 20px;
   font-weight: 500;
-  color: #695945;
+  color: #ffffff;
 }
 
 .gnb li a:last-child {
@@ -80,6 +81,25 @@ nav {
 .gnb li a:hover {
   color: #333;
 }
+
+/* Header with active class */
+header.active {
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+header.active .gnb li a {
+  color: #695945;
+}
+
+header.active .banner {
+  display: none;
+}
+
+header.active nav {
+  padding-bottom: 15px;
+}
+
 
 /* Intro */
 .intro {
