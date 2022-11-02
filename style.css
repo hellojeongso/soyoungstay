@@ -28,11 +28,13 @@ header {
   width: 100%;
   transition: 0.3s;
 }
+
 .banner {
   display: flex;
   align-items: center;
   background-color: #000;
   height: 40px;
+  transition: 0.3s;
 }
 
 .lnb {
@@ -93,13 +95,39 @@ header.active .gnb li a {
 }
 
 header.active .banner {
-  display: none;
+  /* display: none; 
+  transition을 못주기때문에 height 0으로 쓴다.*/
+  height: 0;
+  overflow: hidden;
 }
 
 header.active nav {
   padding-bottom: 15px;
 }
 
+.gototop {
+  background-color: #000;
+  color: #fff;
+  position: fixed;
+  /* position fixed를 함으로써
+  크기값을 가질 수 있다.
+  a태그라 크기값을 가질 수 없었음 */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  right: 20px;
+  bottom: -20px;
+  opacity: 0;
+  font-size: 30px;
+  text-align: center;
+  line-height: 47px;
+  transition: 0.5s;
+}
+
+.gototop.active {
+  bottom: 20px;
+  opacity: 1;
+}
 
 /* Intro */
 .intro {

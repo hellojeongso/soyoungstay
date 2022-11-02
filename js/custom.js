@@ -5,10 +5,10 @@ $(function(){
   // window에서 스크롤을 했는데 위쪽이 50px보다 높다면~ 
   $(window).scroll(function(){
     if($(window).scrollTop() > 50) {
-      $('header').addClass('active')
+      $('header, .gototop').addClass('active')
     }
     else {
-      $('header').removeClass('active')
+      $('header, .gototop').removeClass('active')
     }
   })
 
