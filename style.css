@@ -54,7 +54,7 @@ header {
 }
 
 .lnb a:last-child {
-  margin-right: 0;
+  margin: 0;
 }
 
 .lnb a em {
@@ -69,7 +69,6 @@ nav {
   margin: auto;
   margin-top: 15px;
 }
-
 
 .gnb {
   display: flex;
@@ -87,6 +86,15 @@ nav {
 
 .gnb li a:hover {
   color: #333;
+}
+
+.logo {
+  padding-top: 5px;
+}
+
+/* Trigger */
+.trigger {
+  display: none;
 }
 
 /* Header with active class */
@@ -225,6 +233,7 @@ callaction의 경우는 height */
   display: flex;
   justify-content: space-between;
 }
+
 .item {
   border-radius: 30px 0 30px 0;
   background-color: #fff;
@@ -305,8 +314,6 @@ callaction의 경우는 height */
   font-weight: 300;
 }
 
-.testimonial-content h2 b {}
-
 .testimonial-content hr {
   border: none;
   height: 4px;
@@ -315,7 +322,6 @@ callaction의 경우는 height */
   margin: 30px auto;
 }
 
-.myslider {}
 
 .myslider div {
   outline: none;
@@ -409,23 +415,11 @@ callaction의 경우는 height */
   padding: 100px 0;
 }
 
-.blog-content {
-}
-
-.blog-content div {
-}
-
-.blog-header {
-  
-}
-
 .post-content {
   display: flex;
   justify-content: space-between;
 }
-.post-content div {
-  
-}
+
 .recent-post-items {
   flex: 2;
 }
@@ -464,16 +458,13 @@ hr.divider {
   border-bottom: 1px solid #ddd;
 }
 
-
 .post-item {
   display: flex;
 }
 
-.post-item div {}
-
 .post-image {
   width: 360px;
-  border-radius: 30px 0 40px 0;
+  border-radius: 30px 0 30px 0;
   overflow: hidden; 
   /* 사진이 넘쳐서 border가 안보였다 */
 }
@@ -539,9 +530,6 @@ hr.divider {
 .special-heading h3 span {
   font-weight: 500;
 }
-
-.btns{}
-
 
 .btns a {
   display: inline-block;
@@ -617,6 +605,7 @@ footer {
 
 
 /* Slick.js */
-/* .myslider button {
-  display: none !important;
-} */
+.myslider button {
+  /* display: none !important; */
+  left: 3px;
+}
