@@ -110,6 +110,9 @@
     padding: 10px;
   }
 
+  .photo {
+    margin-top: 30px;
+  }
   /* Tourism */
   .items {
     flex-direction: column;
@@ -117,6 +120,10 @@
 
   .tourism-content{
     padding: 50px 0;
+  }
+
+  .tourism-content h2 {
+    text-align: center;
   }
 
   .item {
@@ -158,6 +165,9 @@
     width: 100%;
   }
 
+  .shared-post-items h6 {
+    margin-top: 25px;
+  }
   .post-desc {
     padding: 0;
   }
@@ -166,6 +176,9 @@
     margin-top: 15px;
   }
 
+  .post-desc p span {
+    text-align: right;
+  }
   .blog-header h2 {
     font-size: 36px;
   }
