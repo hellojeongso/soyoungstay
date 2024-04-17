@@ -39,7 +39,7 @@
       </div>
       <nav>
         <div class="logo">
-          <a href="#none"><img src="images/logo.png" alt=""></a>
+          <a href="#none"><img src="images/logo-title.png" alt="logo"></a>
         </div>
         <ul class="gnb">
           <li><a href="#">HOME</a></li>
@@ -55,337 +55,336 @@
         <span></span>
       </div>
     </header>
-    <main class="intro">
-      <div class="inner">
-        <div class="heading">
-          <h1>SWEET MOMENT</h1>
-          <p>당신의 여정에 소영스테이 리워즈 혜택을 더하세요.</p>
-        </div>
-      </div>
-      <div class="booking">
-        <div class="input-group">
-          <label for="checkin">체크인</label>
-          <input type="date" id="checkin" value="">
-        </div>
-        <div class="input-group">
-          <label for="checkout">체크아웃</label>
-          <input type="date" id="checkout" value="">
-        </div>
-        <div class="input-group">
-          <label for="rooms">객실수</label>
-          <div class="count">
-            <button onclick="changeCount('rooms', -1)">-</button>
-            <input type="number" id="rooms" value="0" min="0">
-            <button onclick="changeCount('rooms', 1)">+</button>
+    <main>
+      <section class="intro">
+        <div class="inner">
+          <div class="heading">
+            <h1>SWEET MOMENT</h1>
+            <p>당신의 여정에 소영스테이 리워즈 혜택을 더하세요.</p>
           </div>
         </div>
-        <div class="input-group">
-          <label for="adults">성인</label>
-          <div class="count">
-            <button onclick="changeCount('adults', -1)">-</button>
-            <input type="number" id="adults" value="0" min="0">
-            <button onclick="changeCount('adults', 1)">+</button>
+        <div class="booking">
+          <div class="input-group">
+            <label for="checkin">체크인</label>
+            <input type="date" id="checkin" value="">
+          </div>
+          <div class="input-group">
+            <label for="checkout">체크아웃</label>
+            <input type="date" id="checkout" value="">
+          </div>
+          <div class="input-group">
+            <label for="rooms">객실수</label>
+            <div class="count">
+              <button onclick="changeCount('rooms', -1)">-</button>
+              <input type="number" id="rooms" value="0" min="0">
+              <button onclick="changeCount('rooms', 1)">+</button>
+            </div>
+          </div>
+          <div class="input-group">
+            <label for="adults">성인</label>
+            <div class="count">
+              <button onclick="changeCount('adults', -1)">-</button>
+              <input type="number" id="adults" value="0" min="0">
+              <button onclick="changeCount('adults', 1)">+</button>
+            </div>
+          </div>
+          <div class="input-group">
+            <label for="children">어린이</label>
+            <div class="count">
+              <button onclick="changeCount('children', -1)">-</button>
+              <input type="number" id="children" value="0" min="0">
+              <button onclick="changeCount('children', 1)">+</button>
+            </div>
+          </div>
+          <button class="search-btn">검색</button>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="inner">
+          <div class="about-content">
+            <div class="desc">
+              <h2>The Best Hospitality Company</h2>
+              <p>SoyongStay는 '최고의 호스피탈리티 기업'을 목표로 오랫동안 품위와 전통을 유지하며 고객의 마음을 사로 잡았습니다.
+                앞으로도 끊임없는 창조적 혁신과 도전을 바탕으로 차별화된 최상의 가치를 선사하는 글로벌 호스피탈리티 명문 기업으로 
+                나아갈 것입니다.
+                <br><br>
+                한국의 아름다움을 현대적인 감각으로 풀어낸 객실에서 서울의 환상적인 야경을 조망할 수 있으며,
+                일몰과 일출을 한 자리에서 감상할 수 있는 국내 호텔입니다.
+                <br><br>
+                최첨단 시설의 연회장에서는 섬세하고 격조 있는 SoyoungStay만의 서비스가 펼쳐집니다
+                <br><br>
+                SoyoungStay는 럭셔리를 넘어, 서비스를 넘어, 상상하는 모든 것 그 이상의 가치를 제공합니다.
+              </p>
+              <a href="#">Visit the place information</a>
+            </div>
+            <div class="photo">
+              <img src="images/hotel_about.jpg">
+            </div>
           </div>
         </div>
-        <div class="input-group">
-          <label for="children">어린이</label>
-          <div class="count">
-            <button onclick="changeCount('children', -1)">-</button>
-            <input type="number" id="children" value="0" min="0">
-            <button onclick="changeCount('children', 1)">+</button>
+      </section>
+      <section class="offers" id="offers">
+        <div class="inner">
+          <div class="offers-content">
+            <h2>SPECIAL OFFERS</h2>
+            <div class="items">
+              <div class="item">
+                <div class="up-img">
+                  <img src="images/offers-1.png" alt="스페셜이미지">
+                </div>
+                <div class="down-desc">
+                  <h3>EVERLASTING MOMENT</h3>
+                  <p>소중한 날, 영원히 기억에 남을 핑크빛 추억을 선사합니다. 
+                    로맨틱한 순간을 기념하는 Montaudon La Grand Rose 샴페인과 플라워 박스를 포함한 생화와 핑크 벌룬, 
+                    led 캔들로 꾸며진 로맨틱 데코레이션을 제공합니다. </p>
+                  <div class="btn-more"><a href="#">MORE</a></div>
+                </div>
+              </div>  
+              <div class="item">
+                <div class="up-img">
+                  <img src="images/offers-2.png" alt="스페셜이미지">
+                </div>
+                <div class="down-desc">
+                  <h3>BED & BREAKFAST</h3>
+                  <p>현지의 신선한 식재료로 만든 다이닝 M에서의 아침 식사로 기분 좋은 여행을 시작해보세요.
+                    최상의 퀄리티로 다채로운 음식이 준비되어 있습니다. 미쉐린 3스타 셰프가 컨설팅한 메뉴 및 요리와 음료를 경험해 보시기 바랍니다.</p>
+                  <div class="btn-more"><a href="#">MORE</a></div>
+                </div>
+              </div> 
+              <div class="item">
+                <div class="up-img">
+                  <img src="images/offers-3.png" alt="스페셜이미지">
+                </div>
+                <div class="down-desc">
+                  <h3>LUXURY WEDDING</h3>
+                  <p>부심과 설레임으로 가장 아름다울 당신의 소중한 순간을 위해 준비했습니다.
+                    전통과 격식을 갖추는 클래식한 감성은 물론, 품격이 느껴지는 세련된 감각의 웨딩까지 다양한 웨딩 스타일을 제안합니다.
+                    인생의 빛나는 첫걸음에 배려와 감동을 더하겠습니다. </p>
+                  <div class="btn-more"><a href="#">MORE</a></div>
+                </div>
+              </div> 
+            </div>
           </div>
         </div>
-        <button class="search-btn">검색</button>
-      </div>
+      </section>
+      <section class="testimonial" id="testimonial">
+        <div class="inner">
+          <div class="testimonial-content">
+            <h2>WHAT <b>OUR CUSTOMERS</b> ARE SAYING</h2>
+            <hr>
+            <div class="myslider">
+              <div>
+                <p class="client">
+                  <img src="images/client-01.jpg">
+                  <span><b>Kim Chul-soo</b>Seoul, Korea</span>
+                </p>
+                <p class="comment">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Nulla enim quo harum dignissimos aut unde earum expedita iste,
+                   voluptates commodi quae, 
+                   inventore consectetur fuga consequatur molestiae accusantium vero ducimus!
+                  Aliquam esse saepe cum laborum at earum incidunt, 
+                  provident quia tempora natus dolorem labore nesciunt ipsa architecto 
+                  illum doloribus beatae. Sed.
+                </p>
+              </div>
+              <div>
+                <p class="client">
+                  <img src="images/client-02.jpg">
+                  <span><b>Crystal</b>Seoul, Korea</span>
+                </p>
+                <p class="comment">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Nulla enim quo harum dignissimos aut unde earum expedita iste,
+                   voluptates commodi quae, 
+                   inventore consectetur fuga consequatur molestiae accusantium vero ducimus!
+                  Aliquam esse saepe cum laborum at earum incidunt, 
+                  provident quia tempora natus dolorem labore nesciunt ipsa architecto 
+                  illum doloribus beatae. Sed.
+                </p>
+              </div>
+              <div>
+                <p class="client">
+                  <img src="images/client-03.jpg">
+                  <span><b>Kim Chul-soo</b>Seoul, Korea</span>
+                </p>
+                <p class="comment">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Nulla enim quo harum dignissimos aut unde earum expedita iste,
+                   voluptates commodi quae, 
+                   inventore consectetur fuga consequatur molestiae accusantium vero ducimus!
+                  Aliquam esse saepe cum laborum at earum incidunt, 
+                  provident quia tempora natus dolorem labore nesciunt ipsa architecto 
+                  illum doloribus beatae. Sed.
+                </p>
+              </div>
+              <div>
+                <p class="client">
+                  <img src="images/client-04.jpg">
+                  <span><b>Kim Chul-soo</b>Seoul, Korea</span>
+                </p>
+                <p class="comment">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Nulla enim quo harum dignissimos aut unde earum expedita iste,
+                   voluptates commodi quae, 
+                   inventore consectetur fuga consequatur molestiae accusantium vero ducimus!
+                  Aliquam esse saepe cum laborum at earum incidunt, 
+                  provident quia tempora natus dolorem labore nesciunt ipsa architecto 
+                  illum doloribus beatae. Sed.
+                </p>
+              </div>
+              <div>
+                <p class="client">
+                  <img src="images/client-05.jpg">
+                  <span><b>Kim Chul-soo</b>Seoul, Korea</span>
+                </p>
+                <p class="comment">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Nulla enim quo harum dignissimos aut unde earum expedita iste,
+                   voluptates commodi quae, 
+                   inventore consectetur fuga consequatur molestiae accusantium vero ducimus!
+                  Aliquam esse saepe cum laborum at earum incidunt, 
+                  provident quia tempora natus dolorem labore nesciunt ipsa architecto 
+                  illum doloribus beatae. Sed.
+                </p>
+              </div>
+              <div>
+                <p class="client">
+                  <img src="images/client-06.jpg">
+                  <span><b>Kim Chul-soo</b>Seoul, Korea</span>
+                </p>
+                <p class="comment">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Nulla enim quo harum dignissimos aut unde earum expedita iste,
+                   voluptates commodi quae, 
+                   inventore consectetur fuga consequatur molestiae accusantium vero ducimus!
+                  Aliquam esse saepe cum laborum at earum incidunt, 
+                  provident quia tempora natus dolorem labore nesciunt ipsa architecto 
+                  illum doloribus beatae. Sed.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="callaction">
+        <div class="callaction-heading">
+          <h2>The most Simple & <b> Powerful Way</b> <br>
+            to book <b>your hotel</b></h2>
+            <a class="callaction-btn" href="#none">GET EARLY ACCESS</a>
+        </div>
+      </section>
+      <section class="blog" id="blog">
+        <div class="inner">
+          <div class="blog-content">
+            <div class="blog-header">
+              <h6>FEATURE ARTICLE</h6>
+              <h2>"I'm going to the hotel to read books"</h2>
+              <p>Based on the fact that "I can't read books because I'm busy," 
+                he also planned a hotel package that provides time and space to read books 
+                in a broader sense.
+              </p>
+              <a class="btn-explore" href="#none">Read More <img src="images/icon-arrow.png"></a>
+            </div>
+            <hr class="divider">
+            <div class="post-content">
+              <div class="recent-post-items">
+                <h6>most recent</h6>
+                <div class="post-item">
+                  <div class="post-image">
+                    <img src="images/most-recent-03.jpg">
+                  </div>
+                  <div class="post-desc">
+                    <h3>
+                      trip to the Han River
+                    </h3>
+                    <p>
+                      The Han River provides a vast view of the Han River to travel.
+                      In addition to cruise ships, there are other more intimate and environmentally sustainable ways to 
+                      relate to the Han River.
+                      <span>July 12, 2021</span>
+                    </p>
+                  </div>
+                </div>
+                <hr class="divider">
+                <div class="post-item">
+                  <div class="post-image">
+                    <img src="images/most-recent-02.jpg">
+                  </div>
+                  <div class="post-desc">
+                    <h3>
+                      come to South Korea
+                    </h3>
+                    <p>
+                      While only 60 years ago South Korea was considered a developing country, 
+                      it’s now one of Asia’s economic and cultural leaders. Super-chic Seoul combines modernism with 
+                      ancient history   
+                      <span>August 22, 2022 </span>
+                    </p>
+                  </div>
+                </div>
+                <hr class="divider">
+                <div class="post-item">
+                  <div class="post-image">
+                    <img src="images/most-recent-01.jpg">
+                  </div>
+                  <div class="post-desc">
+                    <h3>
+                      aquarium trip
+                    </h3>
+                    <p>
+                      The aquarium is a place where the whole family enjoys together and where 40,000 aquatic animals live.
+                      It is the largest shark habitat in Korea, with 110 species of 17 living there. There are also rare and endangered species
+                      <span>June 30, 2020</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="shared-post-items">
+                <h6>most shared</h6>
+                <div class="post-item">
+                  <div class="post-image">
+                    <img src="images/most-shared-01.jpg">
+                  </div>
+                  <div class="post-desc">
+                    <h3>
+                      Events in Seoul
+                    </h3>
+                    <p>
+                      Seoul is the place to see and do everything
+                      <span>May 05, 2022</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="post-item">
+                  <div class="post-image">
+                    <img src="images/most-shared-02.jpg">
+                  </div>
+                  <div class="post-desc">
+                    <h3>
+                      FESTIVALS
+                    </h3>
+                    <p>
+                      Experiencing a festival together with a group of like-minded
+                      <span>June 30, 2022</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="special">
+        <div class="special-heading">
+          <h3>Check out special <span>packages and events</span></h3>
+          <div class="btns">
+            <a href="#none">Promotion</a>
+            <a href="#none">event</a>
+          </div>
+        </div>
+      </section>
     </main>
-    <section class="about" id="about">
-      <div class="inner">
-        <div class="about-content">
-          <div class="desc">
-            <h2>The Best Hospitality Company</h2>
-            <p>SoyongStay는 '최고의 호스피탈리티 기업'을 목표로 오랫동안 품위와 전통을 유지하며 고객의 마음을 사로 잡았습니다.
-              앞으로도 끊임없는 창조적 혁신과 도전을 바탕으로 차별화된 최상의 가치를 선사하는 글로벌 호스피탈리티 명문 기업으로 
-              나아갈 것입니다.
-              <br><br>
-              한국의 아름다움을 현대적인 감각으로 풀어낸 객실에서 서울의 환상적인 야경을 조망할 수 있으며,
-              일몰과 일출을 한 자리에서 감상할 수 있는 국내 호텔입니다.
-              <br><br>
-              최첨단 시설의 연회장에서는 섬세하고 격조 있는 SoyoungStay만의 서비스가 펼쳐집니다
-              <br><br>
-              SoyoungStay는 럭셔리를 넘어, 서비스를 넘어, 상상하는 모든 것 그 이상의 가치를 제공합니다.
-            </p>
-            <a href="#">Visit the place information</a>
-          </div>
-          <div class="photo">
-            <img src="images/hotel_about.jpg">
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="tourism" id="tourism">
-      <div class="inner">
-        <div class="tourism-content">
-          <h2>The popular tourist destination in Seoul</h2>
-          <div class="items">
-            <div class="item">
-              <div class="up-img">
-                <img src="images/door.jpg">
-              </div>
-              <div class="down-desc">
-                <span class="badge must">Must go</span>
-                <h3>Gyeongbokgung Gate</h3>
-                <p>Jungmun among the three gates in Gyeongbokgung Palace in Sejong-ro, Jongno-gu, Seoul</p>
-                <a class="btn-explore" href="#">Explore <img src="images/icon-arrow.png">
-                </a>
-              </div>
-            </div>
-
-            <div class="item">
-              <div class="up-img">
-                <img src="images/lotte.jpg">
-              </div>
-              <div class="down-desc">
-                <span class="badge good">Good to go</span>
-                <h3>Lotte World Tower</h3>
-                <p>The landmark building with more than 100 floors in Korea is Lotte World Tower, a landmark of Seoul. 
-                  It is the first 100-story building in Korea and the first 100-story building in Seoul.</p>
-                  <a class="btn-explore" href="#">Explore <img src="images/icon-arrow.png"></a>
-              </div>
-            </div>
-
-            <div class="item">
-              <div class="up-img">
-                <img src="images/sejong.jpg">
-              </div>
-              <div class="down-desc">
-                <span class="badge good">Good to go</span>
-                <h3>King Sejong the Great</h3>
-                <p>It is a king who created Hunminjeongeum, 
-                  an efficient and scientific writing system that anyone can easily learn.</p>
-                <a class="btn-explore" href="#">Explore <img src="images/icon-arrow.png"></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="testimonial" id="testimonial">
-      <div class="inner">
-        <div class="testimonial-content">
-          <h2>WHAT <b>OUR CUSTOMERS</b> ARE SAYING</h2>
-          <hr>
-          <div class="myslider">
-            <div>
-              <p class="client">
-                <img src="images/client-01.jpg">
-                <span><b>Kim Chul-soo</b>Seoul, Korea</span>
-              </p>
-              <p class="comment">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Nulla enim quo harum dignissimos aut unde earum expedita iste,
-                 voluptates commodi quae, 
-                 inventore consectetur fuga consequatur molestiae accusantium vero ducimus!
-                Aliquam esse saepe cum laborum at earum incidunt, 
-                provident quia tempora natus dolorem labore nesciunt ipsa architecto 
-                illum doloribus beatae. Sed.
-              </p>
-            </div>
-            <div>
-              <p class="client">
-                <img src="images/client-02.jpg">
-                <span><b>Crystal</b>Seoul, Korea</span>
-              </p>
-              <p class="comment">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Nulla enim quo harum dignissimos aut unde earum expedita iste,
-                 voluptates commodi quae, 
-                 inventore consectetur fuga consequatur molestiae accusantium vero ducimus!
-                Aliquam esse saepe cum laborum at earum incidunt, 
-                provident quia tempora natus dolorem labore nesciunt ipsa architecto 
-                illum doloribus beatae. Sed.
-              </p>
-            </div>
-            <div>
-              <p class="client">
-                <img src="images/client-03.jpg">
-                <span><b>Kim Chul-soo</b>Seoul, Korea</span>
-              </p>
-              <p class="comment">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Nulla enim quo harum dignissimos aut unde earum expedita iste,
-                 voluptates commodi quae, 
-                 inventore consectetur fuga consequatur molestiae accusantium vero ducimus!
-                Aliquam esse saepe cum laborum at earum incidunt, 
-                provident quia tempora natus dolorem labore nesciunt ipsa architecto 
-                illum doloribus beatae. Sed.
-              </p>
-            </div>
-            <div>
-              <p class="client">
-                <img src="images/client-04.jpg">
-                <span><b>Kim Chul-soo</b>Seoul, Korea</span>
-              </p>
-              <p class="comment">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Nulla enim quo harum dignissimos aut unde earum expedita iste,
-                 voluptates commodi quae, 
-                 inventore consectetur fuga consequatur molestiae accusantium vero ducimus!
-                Aliquam esse saepe cum laborum at earum incidunt, 
-                provident quia tempora natus dolorem labore nesciunt ipsa architecto 
-                illum doloribus beatae. Sed.
-              </p>
-            </div>
-            <div>
-              <p class="client">
-                <img src="images/client-05.jpg">
-                <span><b>Kim Chul-soo</b>Seoul, Korea</span>
-              </p>
-              <p class="comment">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Nulla enim quo harum dignissimos aut unde earum expedita iste,
-                 voluptates commodi quae, 
-                 inventore consectetur fuga consequatur molestiae accusantium vero ducimus!
-                Aliquam esse saepe cum laborum at earum incidunt, 
-                provident quia tempora natus dolorem labore nesciunt ipsa architecto 
-                illum doloribus beatae. Sed.
-              </p>
-            </div>
-            <div>
-              <p class="client">
-                <img src="images/client-06.jpg">
-                <span><b>Kim Chul-soo</b>Seoul, Korea</span>
-              </p>
-              <p class="comment">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Nulla enim quo harum dignissimos aut unde earum expedita iste,
-                 voluptates commodi quae, 
-                 inventore consectetur fuga consequatur molestiae accusantium vero ducimus!
-                Aliquam esse saepe cum laborum at earum incidunt, 
-                provident quia tempora natus dolorem labore nesciunt ipsa architecto 
-                illum doloribus beatae. Sed.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="callaction">
-      <div class="callaction-heading">
-        <h2>The most Simple & <b> Powerful Way</b> <br>
-          to book <b>your hotel</b></h2>
-          <a class="callaction-btn" href="#none">GET EARLY ACCESS</a>
-      </div>
-    </section>
-    <section class="blog" id="blog">
-      <div class="inner">
-        <div class="blog-content">
-          <div class="blog-header">
-            <h6>FEATURE ARTICLE</h6>
-            <h2>"I'm going to the hotel to read books"</h2>
-            <p>Based on the fact that "I can't read books because I'm busy," 
-              he also planned a hotel package that provides time and space to read books 
-              in a broader sense.
-            </p>
-            <a class="btn-explore" href="#none">Read More <img src="images/icon-arrow.png"></a>
-          </div>
-          <hr class="divider">
-          <div class="post-content">
-            <div class="recent-post-items">
-              <h6>most recent</h6>
-              <div class="post-item">
-                <div class="post-image">
-                  <img src="images/most-recent-03.jpg">
-                </div>
-                <div class="post-desc">
-                  <h3>
-                    trip to the Han River
-                  </h3>
-                  <p>
-                    The Han River provides a vast view of the Han River to travel.
-                    In addition to cruise ships, there are other more intimate and environmentally sustainable ways to 
-                    relate to the Han River.
-                    <span>July 12, 2021</span>
-                  </p>
-                </div>
-              </div>
-              <hr class="divider">
-              <div class="post-item">
-                <div class="post-image">
-                  <img src="images/most-recent-02.jpg">
-                </div>
-                <div class="post-desc">
-                  <h3>
-                    come to South Korea
-                  </h3>
-                  <p>
-                    While only 60 years ago South Korea was considered a developing country, 
-                    it’s now one of Asia’s economic and cultural leaders. Super-chic Seoul combines modernism with 
-                    ancient history   
-                    <span>August 22, 2022 </span>
-                  </p>
-                </div>
-              </div>
-              <hr class="divider">
-              <div class="post-item">
-                <div class="post-image">
-                  <img src="images/most-recent-01.jpg">
-                </div>
-                <div class="post-desc">
-                  <h3>
-                    aquarium trip
-                  </h3>
-                  <p>
-                    The aquarium is a place where the whole family enjoys together and where 40,000 aquatic animals live.
-                    It is the largest shark habitat in Korea, with 110 species of 17 living there. There are also rare and endangered species
-                    <span>June 30, 2020</span>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="shared-post-items">
-              <h6>most shared</h6>
-              <div class="post-item">
-                <div class="post-image">
-                  <img src="images/most-shared-01.jpg">
-                </div>
-                <div class="post-desc">
-                  <h3>
-                    Events in Seoul
-                  </h3>
-                  <p>
-                    Seoul is the place to see and do everything
-                    <span>May 05, 2022</span>
-                  </p>
-                </div>
-              </div>
-              <div class="post-item">
-                <div class="post-image">
-                  <img src="images/most-shared-02.jpg">
-                </div>
-                <div class="post-desc">
-                  <h3>
-                    FESTIVALS
-                  </h3>
-                  <p>
-                    Experiencing a festival together with a group of like-minded
-                    <span>June 30, 2022</span>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="special">
-      <div class="special-heading">
-        <h3>Check out special <span>packages and events</span></h3>
-        <div class="btns">
-          <a href="#none">Promotion</a>
-          <a href="#none">event</a>
-        </div>
-      </div>
-    </section>
     <footer>
       <div class="inner">
         <div class="footer-content">
