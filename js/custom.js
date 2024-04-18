@@ -59,9 +59,14 @@ $('.gnb a').click(function(e){
           slidesToScroll: 1
         }
       }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
     ]
+  });
+
+  $('.mainslider').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    fade: true,
+    cssEase: 'linear'
   });
 })

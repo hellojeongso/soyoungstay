@@ -163,7 +163,7 @@ header.active nav {
   display: flex;
   align-items: center;
   height: 100vh;
-  background: url(images/main.jpg) no-repeat center center;
+  background: url(/images/main.jpg) no-repeat center center;
   background-size: cover;
   position: relative;
 }
@@ -414,12 +414,6 @@ callaction의 경우는 height */
 }
 
 
-
-
-
-
-
-
 /* Testimonial */
 .testimonial {
   padding: 100px 0;
@@ -432,6 +426,13 @@ callaction의 경우는 height */
 .testimonial-content h2 {
   font-size: 30px;
   font-weight: 300;
+  font-family: "Sedan", serif;
+  font-weight: 400;
+}
+
+.testimonial-content h2 > b {
+  font-family: "Sedan", serif;
+  font-weight: 800;
 }
 
 .testimonial-content hr {
@@ -477,12 +478,98 @@ callaction의 경우는 height */
   padding-right: 25px;
 }
 
-/* Callaction */
+/* room */
+.rooms {
+  border-top: 1px solid #d6d6d6;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.rooms-content {
+  padding: 100px 0;
+}
+
+.room-title h2 {
+  font-family: "Sedan", serif;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing:5px;
+  text-align: center;
+}
+
+.room-title p {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.room-detail {
+  display: block;
+  text-align: right;
+}
+
+.room-detail:hover {
+  text-decoration: underline;
+}
+
+.r1 {
+  background:url(/images/room-1.jpg) no-repeat center center;
+  background-size: cover;
+  height: 450px;
+  position: relative;
+}
+
+.r2 {
+  background:url(/images/room-2.jpg) no-repeat center center;
+  background-size: cover;
+  height: 450px;
+  position: relative;
+}
+
+.r3 {
+  background:url(/images/room-3.jpg) no-repeat center center;
+  background-size: cover;
+  height: 450px;
+  position: relative;
+}
+
+.r4 {
+  background:url(/images/room-4.jpg) no-repeat center center;
+  background-size: cover;
+  height: 450px;
+  position: relative;
+}
+
+
+.mainslider .slick-dots {
+  bottom: 20px;
+  color: #fff;
+}
+
+.mainslider .slick-dots li button:before {
+  color: #fff;
+}
+
+.room-content {
+  position: absolute;
+  padding: 30px;
+  bottom: 15px;
+  left: 0;
+}
+
+.room-content h2 {
+  color: #fff;
+}
+.room-content p {
+  color: #fff;
+  font-size: 16px;
+  margin: 0;
+}
+
+/* Membership */
 .callaction {
   display: flex;
   position: relative;
   height: 450px;
-  background: url(images/callaction-01.jpg) no-repeat center center;
+  background: url(/images/membership.jpg) no-repeat center center;
   background-size: cover;
   justify-content: center;
   align-items: center;
@@ -491,7 +578,7 @@ callaction의 경우는 height */
 .callaction:before {
   position: absolute;
   content: '';
-  background: linear-gradient(to right, rgba(45, 3, 45, 0.7), rgba(104, 104, 2, 0.5));
+  background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
   height: 100%;
 }   
@@ -515,19 +602,26 @@ callaction의 경우는 height */
   color: #fff;
   font-weight: 300;
   letter-spacing: 2px;
-  margin-bottom: 30px;
+  font-family: "Sedan", serif;
+  border-bottom: 1px solid #c6a84d;
 }
 
-.callaction-heading h2 b {
+.callaction-heading p {
+  color: #fff;
   font-weight: 500;
+  font-family: "Sedan", serif;
+  font-size: 18px;
+  letter-spacing: 16px;
+  margin-bottom: 50px;
 }
 
 .callaction-btn {
-  background-color: #2ecc71;
+  background-color: #c6a84d;
   color: #fff;
   padding: 10px 20px;
   border-radius: 5px;
   font-size: 18px;
+  font-family: "Sedan", serif;
 }
 
 /* Blog */
@@ -627,6 +721,12 @@ hr.divider {
   padding: 0;
 }
 
+.recent-post-items h6,
+.shared-post-items h6 {
+  font-family: "Sedan", serif;
+  font-weight: 600;
+}
+
 /* Special */
 .special{
   height: 270px;
@@ -723,6 +823,10 @@ footer {
   color: #eee;
 }
 
+footer a,
+.footer-content ul li {
+  font-family: "Sedan", serif;
+}
 
 /* Slick.js */
 .myslider button {
