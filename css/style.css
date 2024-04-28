@@ -425,6 +425,23 @@ callaction의 경우는 height */
   color: #fff;
 }
 
+.btn-more a{
+  font-size: 14px;
+  transition: .4s;
+  color: #c6a84d;
+  z-index: 2;
+  position: relative;
+  font-weight: bolder;
+}
+
+.btn-more:hover {
+  background-color: #c6a84d;
+}
+
+.btn-more:hover a {
+  color: #fff;
+}
+
 
 /* Testimonial */
 .testimonial {
