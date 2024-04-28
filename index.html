@@ -24,19 +24,19 @@
 <body>
   <div class="container">
     <header>
-      <div class="banner">
-        <div class="lnb">
-          <a href="#none"><em>for</em>member</a>
-          <a href="#none"><em>for</em>clients</a>
-          <a href="#none"><em>for</em>inquire</a>
-          <select name="language" id="language">
-            <option value="ko">한국어</option>
-            <option value="en">English</option>
-            <option value="chn">日本語</option>
-            <option value="jpn">中國語</option>
-          </select>
+        <div class="banner">
+          <div class="lnb">
+            <a href="#none"><em>for</em>member</a>
+            <a href="#none"><em>for</em>clients</a>
+            <a href="#none"><em>for</em>inquire</a>
+            <select name="language" id="language">
+              <option value="ko">한국어</option>
+              <option value="en">English</option>
+              <option value="chn">日本語</option>
+              <option value="jpn">中國語</option>
+            </select>
+          </div>
         </div>
-      </div>
       <nav>
         <div class="logo">
           <a href="#none"><img src="images/logo-title.png" alt="logo"></a>
@@ -57,47 +57,49 @@
     </header>
     <main>
       <section class="intro">
-        <div class="inner">
           <div class="heading">
             <h1>SWEET MOMENT</h1>
             <p>당신의 여정에 소영스테이 리워즈 혜택을 더하세요.</p>
           </div>
-        </div>
-        <div class="booking">
-          <div class="input-group">
-            <label for="checkin">체크인</label>
-            <input type="date" id="checkin" value="">
+          <div class="booking">
+            <ul>
+              <li>
+                <label for="checkin">체크인</label>
+                <input type="date" id="checkin" value="">
+              </li>
+              <li>
+                <label for="checkout">체크아웃</label>
+                <input type="date" id="checkout" value="">
+              </li>
+              <li>
+                <label for="rooms">객실수</label>
+                <div class="count">
+                  <button onclick="changeCount('rooms', -1)">-</button>
+                  <input type="number" id="rooms" value="0" min="0">
+                  <button onclick="changeCount('rooms', 1)">+</button>
+                </div>
+              </li>
+              <li>
+                <label for="adults">성인</label>
+                <div class="count">
+                  <button onclick="changeCount('adults', -1)">-</button>
+                  <input type="number" id="adults" value="0" min="0">
+                  <button onclick="changeCount('adults', 1)">+</button>
+                </div>
+              </li>
+              <li>
+                <label for="children">어린이</label>
+                <div class="count">
+                  <button onclick="changeCount('children', -1)">-</button>
+                  <input type="number" id="children" value="0" min="0">
+                  <button onclick="changeCount('children', 1)">+</button>
+                </div>
+              </li>
+              <li>
+                <button class="search-btn">검색</button>
+              </li>
+            </ul>
           </div>
-          <div class="input-group">
-            <label for="checkout">체크아웃</label>
-            <input type="date" id="checkout" value="">
-          </div>
-          <div class="input-group">
-            <label for="rooms">객실수</label>
-            <div class="count">
-              <button onclick="changeCount('rooms', -1)">-</button>
-              <input type="number" id="rooms" value="0" min="0">
-              <button onclick="changeCount('rooms', 1)">+</button>
-            </div>
-          </div>
-          <div class="input-group">
-            <label for="adults">성인</label>
-            <div class="count">
-              <button onclick="changeCount('adults', -1)">-</button>
-              <input type="number" id="adults" value="0" min="0">
-              <button onclick="changeCount('adults', 1)">+</button>
-            </div>
-          </div>
-          <div class="input-group">
-            <label for="children">어린이</label>
-            <div class="count">
-              <button onclick="changeCount('children', -1)">-</button>
-              <input type="number" id="children" value="0" min="0">
-              <button onclick="changeCount('children', 1)">+</button>
-            </div>
-          </div>
-          <button class="search-btn">검색</button>
-        </div>
       </section>
       <section class="about" id="about">
         <div class="inner">
@@ -157,9 +159,9 @@
                 </div>
                 <div class="down-desc">
                   <h3>LUXURY WEDDING</h3>
-                  <p>부심과 설레임으로 가장 아름다울 당신의 소중한 순간을 위해 준비했습니다.
+                  <p>설레임으로 가장 아름다울 당신의 순간을 위해 준비했습니다.
                     전통과 격식을 갖추는 클래식한 감성은 물론, 품격이 느껴지는 세련된 감각의 웨딩까지 다양한 웨딩 스타일을 제안합니다.
-                    인생의 빛나는 첫걸음에 배려와 감동을 더하겠습니다. </p>
+                    인생의 빛나는 첫걸음에 감동을 더하겠습니다. </p>
                   <div class="btn-more"><a href="#">MORE</a></div>
                 </div>
               </div> 

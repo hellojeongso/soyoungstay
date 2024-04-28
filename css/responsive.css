@@ -1,6 +1,73 @@
+@media (max-width:1200px) {
+  .booking {
+    width: 100%;
+  }
+
+  .item {
+    width: 30%;
+    height: auto;
+  }
+}
+
+@media (max-width:1000px) {
+  .post-content {
+    flex-direction: column;
+  }
+
+  .post-item {
+    flex-direction: column;
+  }
+
+  .blog {
+    padding: 50px 0;
+  }
+
+  .post-image {
+    border-radius: 7px;
+    width: 100%;
+  }
+
+  .shared-post-items {
+    width: 100%;
+  }
+
+  .shared-post-items h6 {
+    margin-top: 25px;
+  }
+  .post-desc {
+    padding: 0;
+  }
+
+  .post-desc h3 {
+    margin-top: 15px;
+  }
+
+  .post-desc p span {
+    text-align: right;
+  }
+  .blog-header h2 {
+    font-size: 36px;
+  }
+
+  .blog-header p {
+    font-size: 20px;
+  }
+
+  .blog-header {
+    text-align: center;
+  }
+
+  .recent-post-items h6, .shared-post-items h6 {
+    font-size: 18px;
+  }
+}
+
 @media (max-width:768px) {
-  header {
-    
+  /* Common CSS */
+  .inner {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
   }
 
   .banner {
@@ -39,61 +106,52 @@
 
   .gnb li a {
     display: block; 
-    /* 이용자가 클릭했을 때 inline이면 폭이 좁으니 block */
     color: #000;
     margin: 0; 
-    /* pc버전에선 inline으로 마진 상하가 적용이 안됐다 */
     font-size: 18px;
     padding: 10px;
 
   }
 
-  /* Common CSS */
-  .inner {
-    width: 100%;
-    padding: 15px;
-    box-sizing: border-box;
+    /* Trigger */
+  .trigger {
+    display: block;
+    width: 30px;
+    height: 16px;
+    position: absolute;
+    right: 20px;
+    top: 33px;
   }
-
-  /* Trigger */
-.trigger {
-  display: block;
-  width: 30px;
-  height: 16px;
-  position: absolute;
-  right: 20px;
-  top: 33px;
-}
-
-.trigger span {
-  position: absolute;
-  height: 1px;
-  background-color: #000;
-  width: 100%;
-  transition: 0.3s;
-}
-
-.trigger span:nth-child(1) {
-  top: 0;
-}
-.trigger span:nth-child(2) {
-  top: 50%;
-}
-.trigger span:nth-child(3) {
-  top: 100%;
-}
-
-.trigger.active span:nth-child(1) {
-  top: 50%;
-  transform: rotate(45deg);
-}
-.trigger.active span:nth-child(2) {
-  opacity: 0;
-}
-.trigger.active span:nth-child(3) {
-  top: 50%;
-  transform: rotate(-45deg);
-}
+  
+  .trigger span {
+    position: absolute;
+    height: 1px;
+    background-color: #000;
+    width: 100%;
+    transition: 0.3s;
+  }
+  
+  .trigger span:nth-child(1) {
+    top: 0;
+  }
+  .trigger span:nth-child(2) {
+    top: 50%;
+  }
+  .trigger span:nth-child(3) {
+    top: 100%;
+  }
+  
+  .trigger.active span:nth-child(1) {
+    top: 50%;
+    transform: rotate(45deg);
+  }
+  .trigger.active span:nth-child(2) {
+    opacity: 0;
+  }
+  .trigger.active span:nth-child(3) {
+    top: 50%;
+    transform: rotate(-45deg);
+  }
 
   /* Intro */
   .heading h1 {
@@ -106,12 +164,25 @@
     padding: 50px 0;
   }
 
-  .about-content div {
-    padding: 10px;
+  .desc {
+    margin-right: 0;
   }
 
   .photo {
-    margin-top: 30px;
+    margin: 30px 0 0 0;
+  }
+
+  /* Offers */
+  .offers-content {
+    padding: 50px 0;
+  }
+
+  .offers-content h2 {
+    text-align: center;
+  }
+  /* Rooms */
+  .rooms-content {
+    padding: 50px 0;
   }
   /* Tourism */
   .items {
@@ -132,7 +203,7 @@
     margin-bottom: 25px;
   }
 
- 
+  
   /* Testimonial */
   .testimonial {
     padding: 50px 0;
@@ -141,54 +212,6 @@
   /* Callaction */
   .callaction-heading h2 {
     font-size: 36px;
-  }
-
-  /* Blog Section */
-  .blog {
-    padding: 50px 0;
-  }
-
-  .post-content {
-    flex-direction: column;
-  }
-
-  .post-item {
-    flex-direction: column;
-  }
-
-  .post-image {
-    border-radius: 7px;
-    width: 100%;
-  }
-
-  .shared-post-items {
-    width: 100%;
-  }
-
-  .shared-post-items h6 {
-    margin-top: 25px;
-  }
-  .post-desc {
-    padding: 0;
-  }
-
-  .post-desc h3 {
-    margin-top: 15px;
-  }
-
-  .post-desc p span {
-    text-align: right;
-  }
-  .blog-header h2 {
-    font-size: 36px;
-  }
-
-  .blog-header p {
-    font-size: 20px;
-  }
-
-  .blog-header {
-    text-align: center;
   }
 
   /* Special */
@@ -212,3 +235,9 @@
     margin-bottom: 25px;
   }
 }
+
+  @media (max-width:550px) {
+    .heading  {
+      display: none;
+    }
+  }  
