@@ -161,6 +161,14 @@ header.active nav {
   opacity: 1;
 }
 
+#logo {
+  transition: all 0.3s ease;
+}
+
+#logo.active {
+  content: url('/images/logo-black.png');
+}
+
 /* Intro */
 .intro {
   display: flex;

@@ -1,0 +1,41 @@
+@media (max-width:768px) {
+    .sub-main h1 {
+        text-align: center;
+    }
+
+    .package {
+        width: 100%;
+        height: auto;
+    }
+    .package-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .special-btn {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .special-btn div {
+        width: 100%;
+    }
+}
+
+@media (max-width:460px) {
+    .sub-main h1 {
+        font-size: 38px;
+    }
+
+    .sub-main p {
+        font-size: 12px;
+    }
+
+    .sub-main-title {
+        font-size: 12px;
+    }
+
+    .sub-main-date {
+        font-size: 12px;
+    }
+}
