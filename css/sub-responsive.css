@@ -1,4 +1,7 @@
 @media (max-width:768px) {
+    .sub-main {
+        background-attachment: scroll;
+    }
     .sub-main h1 {
         text-align: center;
     }

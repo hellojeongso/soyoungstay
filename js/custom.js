@@ -1,4 +1,5 @@
 $(function(){
+  
   // Trigger 
   $('.trigger').click(function(){
     $(this).toggleClass('active')
@@ -10,10 +11,10 @@ $(function(){
   })
 
   // Sliding Jquery
-$('.gnb a').click(function(e){
-  $.scrollTo(this.hash || 0, 800);
-  e.preventDefault();
-})
+// $('.gnb a').click(function(e){
+//   $.scrollTo(this.hash || 0, 800);
+//   e.preventDefault();
+// })
 
   // Header Scroll change
   // 선택자가 window

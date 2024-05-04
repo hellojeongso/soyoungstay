@@ -32,3 +32,7 @@ function changeCount(elementId, change) {
     console.log('성인:', adults);
     console.log('어린이:', children);
   }
+
+  function redirectToSpecial() {
+    window.location.href = 'special.html';
+}
