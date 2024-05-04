@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: url(/images/sub-main.jpg) no-repeat center center;
+    background: url('../images/sub-main.jpg') no-repeat center center;
     background-size: cover;
     position: relative;
     background-attachment: fixed;

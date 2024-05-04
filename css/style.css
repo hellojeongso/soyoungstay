@@ -166,7 +166,7 @@ header.active nav {
 }
 
 #logo.active {
-  content: url('/images/logo-black.png');
+  content: url('../images/logo-black.png');
 }
 
 /* Intro */
@@ -176,7 +176,7 @@ header.active nav {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: url(/images/main.jpg) no-repeat center center;
+  background: url('../images/main.jpg') no-repeat center center;
   background-size: cover;
   position: relative;
 }
@@ -549,28 +549,28 @@ callaction의 경우는 height */
 }
 
 .r1 {
-  background:url(/images/room-1.jpg) no-repeat center center;
+  background:url('../images/room-1.jpg') no-repeat center center;
   background-size: cover;
   height: 450px;
   position: relative;
 }
 
 .r2 {
-  background:url(/images/room-2.jpg) no-repeat center center;
+  background:url('../images/room-2.jpg') no-repeat center center;
   background-size: cover;
   height: 450px;
   position: relative;
 }
 
 .r3 {
-  background:url(/images/room-3.jpg) no-repeat center center;
+  background:url('../images/room-3.jpg') no-repeat center center;
   background-size: cover;
   height: 450px;
   position: relative;
 }
 
 .r4 {
-  background:url(/images/room-4.jpg) no-repeat center center;
+  background:url('../images/room-4.jpg') no-repeat center center;
   background-size: cover;
   height: 450px;
   position: relative;
@@ -606,7 +606,7 @@ callaction의 경우는 height */
   display: flex;
   position: relative;
   height: 450px;
-  background: url(/images/membership.jpg) no-repeat center center;
+  background: url('../images/membership.jpg') no-repeat center center;
   background-size: cover;
   justify-content: center;
   align-items: center;
