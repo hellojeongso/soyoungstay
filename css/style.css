@@ -259,8 +259,9 @@ input[type="number"]::-webkit-outer-spin-button {
   height: 34px;
   border: 1px solid #bbb;
   border-radius: 5px;
-  padding: 0 10px;
+  /* padding: 10px; */
   text-align: center;
+  color: #222;
 }
 
 .count {
@@ -279,6 +280,7 @@ input[type="number"]::-webkit-outer-spin-button {
   font-size: 16px;
   cursor: pointer;
   border-radius: 5px;
+  color: #222;
 }
 
 .count input[type="number"] {
@@ -298,6 +300,11 @@ input[type="number"]::-webkit-outer-spin-button {
   border-radius: 5px;
 }
 
+#checkin, #checkout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* About */
 .about-content {
   margin: auto;

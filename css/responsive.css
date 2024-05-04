@@ -219,6 +219,10 @@
     padding: 15px;
   }
 
+  .special-heading h3 {
+    font-size: 18px;
+  }
+
   .btns a {
     width: 100%;
     box-sizing: border-box;
